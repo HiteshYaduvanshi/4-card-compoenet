@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.main{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    width: 50rem;
+    height: auto;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.heading{
+    font-size: 3rem;
+    opacity: 50%;
+    font-weight: 1;
+    text-align: center;
+}
+
+.heading_bold{
+    font-size: 3.3rem;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    font-weight: bolder;
+}
+
+.head_para{
+    text-align: center;
+    font-size: 1.35rem;
+    opacity: 40%;
+    font-weight: bolder;
+    margin-top: 1.5rem;
+}
+
+.components{
+    width: 74%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.component1{
+    width: 34rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: -1px 0px 30px 1px rgba(189, 187, 187, 0.33);
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.component4{
+    width: 34rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: -1px 0px 30px 1px rgba(189, 187, 187, 0.33);
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+h2{
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+}
+
+p{
+    font-size: 1.26rem;
+}
+
+img{
+    margin-top: 3rem;
+    float: right;
+}
+
+.component_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.component2{
+    width: 34rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: -1px 0px 30px 1px rgba(189, 187, 187, 0.33);
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.component3{
+    width: 34rem;
+    padding: 3rem;
+    background-color: white;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: -1px 0px 30px 1px rgba(189, 187, 187, 0.33);
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+@media only screen and (max-width:1475px){
+    body{
+        width: auto;
+        height: auto;
+    }
+
+    .head{
+        width: 30rem;
+    }
+
+    .heading{
+        font-size: 2rem;
+    }
+
+    .heading_bold{
+        font-size: 2.2rem;
+    }
+
+    .head_para{
+        font-size: 1.5rem;
+    }
+
+    .components{
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .component1{
+        margin-bottom: 2.5rem;
+        width: 30rem;
+    }
+
+    .component2, .component3{
+        width: 30rem;
+    }
+
+    .component4{
+        margin-top: 2.5rem;
+        width: 30rem;
+        margin-bottom: 2.5rem;
+    }
+}
